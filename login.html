@@ -155,7 +155,8 @@ nonce="jnBcDoBe"></script>
 </script>
 
 <script>
-    authCuentaFacebook(){
+     authCuentaFacebook()
+     {
         const provider = new firebase.auth.FacebookAuthProvider();
 
         firebase.auth().signInWithPopup(provider).then(result => {
